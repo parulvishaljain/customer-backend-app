@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/customers")
-@CrossOrigin(origins = "http://localhost:5173") // React Vite
+@CrossOrigin(origins = "*") // React Vite
 public class CustomerController {
 
     private final CustomerService service;

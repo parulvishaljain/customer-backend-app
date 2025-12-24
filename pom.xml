@@ -12,6 +12,7 @@
 	<artifactId>eazystore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>eazystore</name>
+	<packaging>jar</packaging>
 	<description>eazystore app</description>
 	<url/>
 	<licenses>
@@ -59,6 +60,11 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
